@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 
+export const runtime = 'edge';
 // Proper helper function (wraps return in a function)
 function pagesObjectToArray(pages) {
   if (!pages) return [];

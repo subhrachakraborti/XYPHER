@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 
+export const runtime = 'edge';
 export async function GET() {
   const endpoint =
     'https://en.wikipedia.org/api/rest_v1/feed/featured/2025/08/22'; 
